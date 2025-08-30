@@ -1,0 +1,97 @@
+//estrutura básica de criação de app
+
+// Enunciado do exercicio:
+// 1 - Escreva um algoritmo que receba dois valores. Some os valores e mostre o resultado.
+
+// 1. Declaração das variáveis 
+let valor1;
+let valor2;
+let resultado;
+
+// 2. Atribuição de valores ( ENTRADA)
+valor1 = 5;
+valor2 = 4;
+
+// 3. Cálculos e validações (PROCESSAMENTO)
+resultado = valor1 + valor2;
+
+
+// 4. Mostra o resultado ( SAÍDA)
+console.log (resultado);
+
+
+// 2 - Escreva um algoritmo que receba 3 valores. Calcule a média dos valores e mostre o resultado
+
+let media1;
+let media2;
+let media3;
+let calculoTotal
+
+media1 = 10;
+media2 = 6;
+media3 = 6;
+
+
+calculoTotal = (media1 + media2 + media3) / 3;
+
+console.log(calculoTotal.toFixed(2))
+
+// 3 - Escreva um algoritmo que receba 2 valores: - valorA e valorB. Inverta os valores e mostre o resultado.
+
+let valorA
+let valorB
+
+
+valorA = 3
+valorB = 6
+
+let aux = valorA;
+valorA = valorB;
+valorB = aux 
+
+
+console.log("valorA:", valorA)
+console.log("valorB", valorB)
+
+
+// 4 - 1. Escreva um algoritmo que calcule e mostre a área de um quadrado.
+//Exemplo 1:
+Entrada: 3
+Saída: 9
+///Exemplo 2:
+Entrada: 5
+Saída: 25
+//Exemplo 3:
+Entrada: 15
+Saída: 225
+// Lembrando que a premissa (o que se espera) de uma figura ser considerada
+//um quadrado é ter os lados iguais./
+
+
+let lado;
+let area;
+
+// o usuario informa o valor
+
+lado = prompt("informe o valor do lado");
+
+
+area = 2;
+
+area = lado ** area; 
+console.log (area)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
